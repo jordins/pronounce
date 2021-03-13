@@ -1237,16 +1237,9 @@ dependencies = [
 name = "pronounce"
 version = "0.1.0"
 dependencies = [
+ "clap",
  "reqwest",
  "rodio",
-]
-
-[[package]]
-name = "pronounce-cli"
-version = "0.1.0"
-dependencies = [
- "clap",
- "pronounce",
 ]
 
 [[package]]
